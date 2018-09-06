@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/object.js"></script> 
+   
+    <title>Rockets</title>
+</head>
+<body>
+    <div id="title">Rocket Fire!</div>
+    <div id="wrap">
+        <div id="rocket1">
+                <div>
+                    <ul>
+                        <li>
+                            <button type="button" class="btn" onclick="createRocket1('ARTZ322')">Create Rocket 1</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="printRocket(rocket1)">Print Rocket 1</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="accelerateRocket(rocket1)">Accelerate Rocket 1</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="brakeRocket(rocket1)">Brake Rocket 1</button>
+                        </li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><strong>Created: </strong><span id="createdRocket1">None</span></li>
+                    <li><strong>Code: </strong><span id="codeRocket1"> - - - -</span></li>
+                    <li><strong>Propellants: </strong><span id="propRocket1"> - - - -</span></li>
+                    <li><strong>Actual Power: </strong><span id="actualPowerRocket1"> - - - -</span></li>
+                    <li><strong>Max Power: </strong><span id="maxPowerRocket1"> - - - -</span></li>
+                    <li><strong>Velocity: </strong><span id="velocityRocket1"> - - - -</span></li>
+                </ul>
+        </div> 
+        <div id="rocket2">
+                <div>
+                    <ul>
+                        <li>
+                            <button type="button" class="btn" onclick="createRocket2('ZDF23GL')">Create Rocket 2</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="printRocket2(rocket2)">Print Rocket 2</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="accelerateRocket2(rocket2)">Accelerate Rocket 2</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" onclick="brakeRocket2(rocket2)">Brake Rocket 2</button>
+                        </li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><strong>Created: </strong><span id="createdRocket2">None</span></li>
+                    <li><strong>Code: </strong><span id="codeRocket2"> - - - -</span></li>
+                    <li><strong>Propellants: </strong><span id="propRocket2"> - - - -</span></li>
+                    <li><strong>Actual Power: </strong><span id="actualPowerRocket2"> - - - -</span></li>
+                    <li><strong>Max Power: </strong><span id="maxPowerRocket2"> - - - -</span></li>
+                    <li><strong>Velocity: </strong><span id="velocityRocket2"> - - - -</span></li>
+                </ul>
+        </div> 
+    </div>   
+    <footer>Rocket Fire! App developent by Guillem Duñó 
+            <script>
+                var d = new Date();
+                var n = d.getFullYear()
+                document.write(n);
+            </script> 
+        </footer>
+</body>
+</html>
