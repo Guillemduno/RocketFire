@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-image: url("/img/w.jpg");
+=======
+    background-image: url(./img/w.jpg);
+>>>>>>> 5b5dc0fc3a89d4850aa737be33a48819981a06ae
     color: rgb(51, 41, 41);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
