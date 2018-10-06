@@ -35,7 +35,7 @@ body{
     outline: none;
 }
 .btn:hover{
-    background-color: rgba(217, 26, 64, 0.829);
+    background-color: rgba(217, 26, 64, 0.529);
 }
 #rocket1{
     float: left;
